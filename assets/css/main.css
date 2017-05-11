@@ -1,0 +1,89 @@
+*{
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+.container{
+  display: flex;
+  width: 100%;
+  height: 900px;
+  justify-content: center;
+  align-items: center;
+}
+.gatitos{
+  width: auto;
+  height: auto;
+}
+@media (min-width:0px) {
+  body{
+    background-image: url(../img/maxresdefault.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+  }
+  .gatito1{
+    display: none;
+  }
+  .gatito2{
+    display: none;
+  }
+  .gatito3{
+    display: inline-block;
+  }
+}
+@media (min-width:480px) {
+  body{
+    background-image: url(../img/midnight-conversation_861064.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+  }
+  .container{
+    align-items: flex-end;
+  }
+  .gatito1{
+    display: none;
+  }
+  .gatito2{
+    display:inline-block;
+  }
+  .gatito3{
+    display: none;
+  }
+}
+@media (min-width:780px) {
+  body{
+    background-image: url(../img/dawn.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+  }
+  .container{
+    align-items: center;
+  }
+  .gatito1{
+    display:inline-block;
+  }
+  .gatito2{
+    display: none;
+  }
+  .gatito3{
+    display: none;
+  }
+}
+@media (min-width:1024px) {
+  body{
+    background-image: url(../img/Landscape.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+  }
+  .container{
+    align-items: flex-end;
+  }
+  .gatito1{
+    display: none;
+  }
+  .gatito2{
+    display:inline-block;
+  }
+  .gatito3{
+    display: none;
+  }
+}
